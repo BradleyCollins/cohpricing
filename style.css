@@ -8,8 +8,11 @@ img {
   margin-right: auto;
 }
 
-body {
+.mainContent {
   background-color: #be1c1c;
+  border-radius: 15px;
+  margin: 20px 100px 0px 100px;
+  padding: 20px 0px 20px 0px;
 }
 
 h1 {
@@ -114,8 +117,8 @@ input[type="text"] {
 }
 
 h3 {
-    padding-top: 50px;
-    color: #fff;
-    font-family: "Playfair Display", serif;
-    text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  text-align: center;
 }
