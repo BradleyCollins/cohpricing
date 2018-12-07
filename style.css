@@ -1,0 +1,121 @@
+header {
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #be1c1c;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 300px 300px 300px 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.container img {
+  width: 300px;
+}
+
+.man1 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.man2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.man3 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+
+.man4 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.man5 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.man6 {
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+.man7 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.man8 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.man9 {
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+
+.formLabel {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+.form1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 50px%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.results {
+  text-align: center;
+  padding-top: 20px;
+}
+.resultText {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  vertical-align: middle;
+  padding-right: 200px;
+}
+
+.rules1 {
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+h3 {
+    padding-top: 50px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
